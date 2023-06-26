@@ -1,0 +1,6 @@
+package com.formacionbdi.springboot.app.zuul.filters;
+
+@Component
+public class PreTiempoTranscurridoFilter {
+
+}
