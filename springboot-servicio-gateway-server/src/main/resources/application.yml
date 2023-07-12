@@ -30,3 +30,5 @@ spring:
           - Path=/api/oauth/**
         filters:
           - StripPrefix=2
+          - RemoveRequestHeader=Cookie
+          - RemoveRequestHeader=Set-Cookie
